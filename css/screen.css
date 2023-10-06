@@ -215,4 +215,17 @@ p, ol, li, textarea, button, input {
 html {
 	background-color: rgb(241, 230, 230);
 }
+#content {
+	width: 100%;
+	margin: auto;
+}
+#content h1 {
+	font-size: 2.369em;
+	font-weight: bold;
+	box-sizing: border-box;
+	text-align: center;
+  padding: 8px;
+	margin-top: 10%;
+}
+
 /* ===== STATE STYLES ======= */
