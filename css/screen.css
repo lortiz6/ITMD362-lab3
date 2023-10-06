@@ -236,5 +236,11 @@ html {
 	margin-top: 15%;
 	margin-bottom: 2.5%;
 }
+#content p {
+	font-size: 1.8em;
+	box-sizing: border-box;
+	text-align: center;
+	margin-top: 5%;
+}
 
 /* ===== STATE STYLES ======= */
