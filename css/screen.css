@@ -203,163 +203,121 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-/* Font Stack */
 body {
   background-color: #ccc;
   align-content: center;
   font-family: 'Pixelify Sans', sans-serif;
   font-family: 'Young Serif', serif;
 }
-
 p, ol, li, textarea, button, input {
-  font-family: -apple-system, BlinkMacSystemFont, 'IBM Plex Sans', Arial, sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont,'IBM Plex Sans', Arial, sans-serif;
 }
-
-html {
-  background-color: rgb(241, 230, 230);
+label {
+  display: inline;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
 }
-
-/* Center all content */
-#content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+form li {
+  padding-bottom: 1.5rem;
 }
-
-#content h1 {
-  font-size: 2.369em;
-  font-weight: bold;
-  box-sizing: border-box;
+h1 {
   text-align: center;
-  margin-top: 10%;
+  padding-bottom: 1rem;
+  font-size: 2.618rem;
+  font-family: 'Young Serif';
+  font-weight: 400;
 }
-
-#content label#forEmail {
-  font-size: 1.8em;
-  box-sizing: border-box;
-  width: 60%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  text-align: center; /* Center text horizontally */
+p {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-size: 1.618rem;
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-weight: 300;
+  padding-bottom: 1rem;
+  margin-top: 1.618rem;
 }
-
-/* Style Email Input */
-input#email {
+input[type="email"] {
+  background-color: #D3D3D3;
+  border: 0;
+  padding: 1rem;
+  width: 50%;
+  margin-top: 1rem;
+}
+input[type="submit"] {
+  background-color: #B5B5B5;
+  font-family: 'Young Serif';
   font-size: 1em;
   box-sizing: border-box;
   display: block;
-  width: 60%;
-  margin: auto;
-  height: 2.5em;
-  border-radius: 12px;
   border: 0;
-  background-color: #b2b2b2;
+  padding: 1rem;
+  width: 10%;
+  margin-top: auto;
 }
-
-/* Style Checkbox Container */
-div#center {
-  width: 440px;
-  height: 1.8em;
-  margin: auto;
-  margin-top: 15%;
-}
-
-/* Style Age Verification Checkbox */
-input#age-verification {
-  height: 1.8em;
-  width: 1.8em;
-  float: left;
-  margin: 0 3% 0 0;
-}
-
-/* Hide Age Verification Checkbox with JavaScript */
-.hasjs input#age-verification {
-  position: absolute;
-  right: 6000px;
-}
-
-/* Style Alternative Checkbox */
-.hasjs div#alt-checkbox {
-  box-sizing: border-box;
-  height: 1.8em;
-  width: 1.8em;
-  float: left;
-  margin: 0 3% 0 0;
-  background-color: #b2b2b2;
-  border-radius: 5px;
-}
-
-#content label#forAge {
-  font-size: 1.8em;
-  box-sizing: border-box;
-  display: block;
-  float: left;
-}
-
-/* Style Submit Button */
-input#submit {
-  font-size: 1.8em;
-  box-sizing: border-box;
-  display: block;
-  width: fit-content;
-  padding: 10px;
-  margin: auto;
-  border-radius: 12px;
-  margin-top: 15%;
+input[type="checkbox"] {
+  position: relative;
+  width: 22px;
+  height: 22px;
+  content: "";
+  background-color: #EDEDED;
   border: 0;
-  background-color: #b2b2b2;
+  margin-top: 1.618rem;
+  margin-right: 1rem;
 }
+input {
+  font-family: 'Roboto Condensed', Helvetica, sans-serif;
+  font-weight: 300;
+}
+ol {
+  padding-top: 2.618rem;
+}
+/* ===== BASE STYLES ===== */
+/*Second base style for media query*/
 
-@media only screen and (min-width: 510px) {
-  html {
-    background-color: #b2b2b2;
+@media screen and (max-width: 699px) and (min-width: 520px) {
+  body{
+    font-size: 1.125rem;
+    line-height: 1.5;
+    padding: 1rem;
+    background-color: lightpink;
   }
-
-  /* Adjust Content Container Styles */
-  #content {
-    background-color: lightgrey;
-    border-radius: 20px;
-    margin-top: 3%;
+  label {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0;
   }
-
-  #content h1 {
-    font-size: 3.157em;
-    margin-top: 0;
-    padding-top: 1.5em;
+  form li {
+    padding-bottom: 1rem;
   }
-
-  #content p {
-    font-size: 2.369em;
-    margin-top: 1em;
+  h1 {
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
   }
-
-  /* Adjust Email Label Styles */
-  label[for="email"] {
-    font-size: 2.369em;
-    margin-top: 1.5em;
-    margin-bottom: 0.5em;
+  p {
+    padding-bottom: 0.5rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
   }
-
-  /* Adjust Email Input Styles */
-  input#email {
-    font-size: 1.8em;
+  input[type="email"] {
+    background-color: #D3D3D3;
+    padding: 0.5rem;
+    width: 80%;
+    margin-top: 0.5rem;
   }
-
-  /* Adjust Center Container Styles */
-  div#center {
-    width: 335px;
-    height: 1.8em;
-    margin-top: 1.5em;
+  input[type="submit"] {
+    background-color: #B5B5B5;
+    padding: 0.5rem;
+    width:70%;
+    margin-top: 0.5rem;
   }
-
-  /* Adjust Submit Button Styles */
-  input#submit {
-    font-size: 2.369em;
-    margin: 5em auto 0 auto;
-    position: relative;
-    bottom: 2em;
+  input[type="checkbox"] {
+    background-color: #EDEDED;
+    width: 1.125rem;
+    height: 1.125rem;
+    margin-right: 0.5rem;
+  }
+  ol {
+    padding-top: 1rem;
   }
 }
 
