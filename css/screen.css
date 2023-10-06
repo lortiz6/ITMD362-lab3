@@ -204,11 +204,6 @@ label {
 
 /* ===== LAYOUT STYLES ====== */
 /* Base Styles */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
 body {
   background-color: #ccc;
   font-size: 1.618rem;
