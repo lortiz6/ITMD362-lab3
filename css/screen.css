@@ -212,5 +212,7 @@ body {
 p, ol, li, textarea, button, input {
 	font-family: -apple-system, BlinkMacSystemFont,'IBM Plex Sans', Arial, sans-serif;
 }
-
+html {
+	background-color: rgb(241, 230, 230);
+}
 /* ===== STATE STYLES ======= */
