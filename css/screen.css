@@ -210,7 +210,7 @@ html, body {
   padding: 0;
 }
 body {
-  background-color: linear-gradient(to bottom, white, #ccc, white);
+  background-color: #ccc;
   font-size: 1.618rem;
   line-height: 1.5;
   padding: 0.5rem 3rem;
@@ -291,7 +291,7 @@ input[type="submit"] {
     font-size: 1.125rem;
     line-height: 1.5;
     padding: 0.1rem 3rem;
-    background-color: linear-gradient(to bottom, white, rgb(205, 186, 189), white);
+    background-color:rgb(205, 186, 189);
   }
   label {
     display: block;
