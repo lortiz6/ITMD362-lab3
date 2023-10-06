@@ -205,7 +205,7 @@ label {
 /* ===== LAYOUT STYLES ====== */
 /* Base Styles */
 body {
-  background-color: #ccc;
+  background-color: linear-gradient(to bottom, #ccc, #fff);
   font-size: 1.618rem;
   line-height: 1.5;
   padding: 0.5rem 3rem;
@@ -286,7 +286,7 @@ input[type="submit"] {
     font-size: 1.125rem;
     line-height: 1.5;
     padding: 0.1rem 3rem;
-    background-color: rgb(205, 186, 189);
+    background-color: linear-gradient(to bottom, rgb(205, 186, 189), #fff);
   }
   label {
     display: block;
