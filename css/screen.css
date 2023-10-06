@@ -254,5 +254,11 @@ input #email {
 	border: 0;
 	background-color: #b2b2b2;
 }
+div #center {
+	width: 440px;
+	height: 1.8em;
+	margin: auto;
+	margin-top: 15%;
+}
 
 /* ===== STATE STYLES ======= */
