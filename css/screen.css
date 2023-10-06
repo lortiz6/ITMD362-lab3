@@ -209,4 +209,8 @@ body {
   font-family: 'Pixelify Sans', sans-serif;
   font-family: 'Young Serif', serif;
 }
+p, ol, li, textarea, button, input {
+	font-family: -apple-system, BlinkMacSystemFont,'IBM Plex Sans', Arial, sans-serif;
+}
+
 /* ===== STATE STYLES ======= */
