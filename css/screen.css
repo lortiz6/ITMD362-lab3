@@ -208,7 +208,7 @@ body {
   background-color: #ccc;
   font-size: 1.618rem;
   line-height: 1.5;
-  padding: 2rem;
+  padding: 0.5rem 3rem;
   font-family: 'Roboto Condensed', Helvetica, sans-serif;
   font-weight: 300;
   margin-top: .5rem;
@@ -268,7 +268,7 @@ input[type="checkbox"] {
   content: "";
   background-color: #EDEDED;
   border: 0;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-right: 1rem;
 }
 input[type="submit"] {
@@ -277,13 +277,15 @@ input[type="submit"] {
   border: 0;
   padding: 1rem;
   width: 20%;
-  margin-top: 1rem;
+  margin: 0 auto;
+  display: block;
+  margin-top: 0.5rem;
 }
 @media screen and (max-width: 699px) and (min-width: 520px) {
   body {
     font-size: 1.125rem;
     line-height: 1.5;
-    padding: 3rem;
+    padding: 0.1rem 3rem;
     background-color: rgb(205, 186, 189);
   }
   label {
