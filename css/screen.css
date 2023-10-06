@@ -229,6 +229,7 @@ html {
 }
 #content label #forEmail {
 	font-size: 1.8em;
+  text-align: center;
 	box-sizing: border-box;
 	display: block;
 	width: 60%;
@@ -241,6 +242,17 @@ html {
 	box-sizing: border-box;
 	text-align: center;
 	margin-top: 5%;
+}
+input #email {
+	font-size: 1em;
+	box-sizing: border-box;
+	display: block;
+	width: 60%;
+	margin: auto;
+	height: 2.5em;
+	border-radius: 12px;
+	border: 0;
+	background-color: #b2b2b2;
 }
 
 /* ===== STATE STYLES ======= */
